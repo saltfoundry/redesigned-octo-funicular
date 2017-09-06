@@ -5,6 +5,10 @@
   "scripts": {
     "prestart": "ng build --prod && ngc",
     "start": "ts-node src/server.ts"
+  },,  
+  "engines": {
+    "node": "6.10.2",
+    "ts-node": "~2.0.0"
   },
   "private": true,
   "dependencies": {
@@ -37,7 +41,6 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.0",
-    "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
   }
